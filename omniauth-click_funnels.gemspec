@@ -29,6 +29,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "omniauth-oauth2", "~> 1.7.0"
+  spec.add_dependency "faraday", "~> 2.8.1"
   spec.add_development_dependency "standardrb"
 
   # For more information and examples about making a new gem, checkout our

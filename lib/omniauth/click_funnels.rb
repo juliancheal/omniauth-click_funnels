@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "click_funnels/version"
+require_relative "click_funnels/client"
 require "omniauth-oauth2"
 
 module OmniAuth
